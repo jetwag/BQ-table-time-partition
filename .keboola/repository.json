@@ -1,0 +1,117 @@
+{
+  "version": 2,
+  "author": {
+    "name": "Keboola",
+    "url": "https://keboola.com"
+  },
+  "templates": [
+    {
+      "id": "kai-promptlab",
+      "name": "Kai PromptLab",
+      "description": "Streamline your AI prompting process! Use this Streamlit app to refine, test, and compare multiple prompts, ensuring optimal results. Dive into AI with enhanced efficiency!",
+      "requirements": 
+        {
+          "backends": ["snowflake"],
+          "features": ["data-apps-proxy","sandboxes-data-apps"]
+        },
+      "path": "keboola.data-apps/kai-promptlab",
+      "deprecated": false,
+      "categories": [
+        "Data Apps", "Artificial Intelligence"
+      ],
+      "versions": [
+        {
+          "version": "1.0.0",
+          "description": "",
+          "stable": false,
+          "components": [
+            "keboola.data-apps"
+          ],
+          "path": "v0"
+        }
+      ]
+    },
+    {
+      "id": "kai-sql-bot",
+      "name": "Kai SQL bot",
+      "description": "Chat with our AI-driven SQL Bot to effortlessly query your Snowflake database. Seamless and powerful!",
+      "requirements":
+        {
+          "backends": ["snowflake"],
+          "features": ["data-apps-proxy","sandboxes-data-apps"]
+        },
+      "path": "keboola.data-apps/kai-sql-bot",
+      "deprecated": false,
+      "categories": [
+        "Data Apps", "Artificial Intelligence"
+      ],
+      "versions": [
+        {
+          "version": "1.0.0",
+          "description": "",
+          "stable": false,
+          "components": [
+            "keboola.data-apps"
+          ],
+          "path": "v0"
+        }
+      ]
+    },
+    {
+      "id": "hello-world",
+      "name": "Hello World",
+      "description": "Experience a Streamlit web app with interactive widgets and optimized performance, showcasing caching for fast data loading and a user-friendly interface.",
+      "requirements": {
+        "backends": [
+          "snowflake"
+        ],
+        "components": null,
+        "features": [
+          "data-apps-proxy",
+          "sandboxes-data-apps"
+        ]
+      },
+      "categories": [
+        "Data Apps", "Tutorials"
+      ],
+      "path": "keboola.data-apps/hello-world",
+      "versions": [
+        {
+          "version": "0.0.1",
+          "description": "",
+          "stable": false,
+          "components": [
+            "keboola.data-apps"
+          ],
+          "path": "v0"
+        }
+      ]
+    },
+    {
+      "id": "keboola-data-editor",
+      "name": "Keboola Data Editor",
+      "description": "Simplify your data editing and management within your company using this demo data app that showcases the interaction between Streamlit and Keboola Storage.",
+      "requirements":
+        {
+          "backends": ["snowflake"],
+          "features": ["data-apps-proxy","sandboxes-data-apps"]
+        },
+      "path": "keboola.data-apps/keboola-data-editor",
+      "deprecated": false,
+      "categories": [
+        "Data Apps"
+      ],
+      "versions": [
+        {
+          "version": "1.0.0",
+          "description": "",
+          "stable": false,
+          "components": [
+            "keboola.data-apps"
+          ],
+          "path": "v0"
+        }
+      ]
+    }
+  ]
+}
