@@ -12,7 +12,8 @@
       "requirements": 
         {
           "backends": ["snowflake"],
-          "features": ["data-apps-proxy","sandboxes-data-apps"]
+          "components": ["keboola.data-apps"],
+          "features": ["sandboxes-data-apps"]
         },
       "path": "keboola.data-apps/kai-promptlab",
       "deprecated": false,
@@ -38,7 +39,8 @@
       "requirements":
         {
           "backends": ["snowflake"],
-          "features": ["data-apps-proxy","sandboxes-data-apps"]
+          "components": ["keboola.data-apps"],
+          "features": ["sandboxes-data-apps"]
         },
       "path": "keboola.data-apps/kai-sql-bot",
       "deprecated": false,
@@ -65,9 +67,8 @@
         "backends": [
           "snowflake"
         ],
-        "components": null,
+        "components": ["keboola.data-apps"],
         "features": [
-          "data-apps-proxy",
           "sandboxes-data-apps"
         ]
       },
@@ -94,7 +95,8 @@
       "requirements":
         {
           "backends": ["snowflake"],
-          "features": ["data-apps-proxy","sandboxes-data-apps"]
+          "components": ["keboola.data-apps"],
+          "features": ["sandboxes-data-apps"]
         },
       "path": "keboola.data-apps/keboola-data-editor",
       "deprecated": false,
