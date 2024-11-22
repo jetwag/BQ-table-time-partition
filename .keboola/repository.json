@@ -114,6 +114,87 @@
           "path": "v0"
         }
       ]
+    },
+        {
+      "id": "facebook-ads-campaigns",
+      "name": "Facebook Ads - Campaigns",
+      "description": "This data source is getting data about Facebook campaigns for the last month.",
+      "requirements":
+        {
+          "backends": ["snowflake"],
+          "components": ["keboola.ex-facebook-ads"],
+          "features": null
+        },
+      "path": "keboola.ex-facebook-ads/facebook-ads-campaigns",
+      "deprecated": false,
+      "categories": [
+        "Marketing"
+      ],
+      "versions": [
+        {
+          "version": "1.0.0",
+          "description": "",
+          "stable": false,
+          "components": [
+            "keboola.ex-facebook-ads"
+          ],
+          "path": "v0"
+        }
+      ]
+    },
+    {
+      "id": "facebook-ads-adsets",
+      "name": "Facebook Ads - Adsets",
+      "description": "This data source is getting data about Facebook adsets for the last month.",
+      "requirements":
+        {
+          "backends": ["snowflake"],
+          "components": ["keboola.ex-facebook-ads"],
+          "features": null
+        },
+      "path": "keboola.ex-facebook-ads/facebook-ads-adsets",
+      "deprecated": false,
+      "categories": [
+        "Marketing"
+      ],
+      "versions": [
+        {
+          "version": "1.0.0",
+          "description": "",
+          "stable": false,
+          "components": [
+            "keboola.ex-facebook-ads"
+          ],
+          "path": "v0"
+        }
+      ]
+    },
+    {
+      "id": "facebook-ads-ads",
+      "name": "Facebook Ads - Ads",
+      "description": "This data source is getting data about Facebook ads for the last month.",
+      "requirements":
+        {
+          "backends": ["snowflake"],
+          "components": ["keboola.ex-facebook-ads"],
+          "features": null
+        },
+      "path": "keboola.ex-facebook-ads/facebook-ads-ads",
+      "deprecated": false,
+      "categories": [
+        "Marketing"
+      ],
+      "versions": [
+        {
+          "version": "1.0.0",
+          "description": "",
+          "stable": false,
+          "components": [
+            "keboola.ex-facebook-ads"
+          ],
+          "path": "v0"
+        }
+      ]
     }
   ]
 }
