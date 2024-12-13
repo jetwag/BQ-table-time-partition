@@ -1,4 +1,4 @@
 {
-  name: "Interactive Keboola Sheets [KEBOOLA-SHEETS-APP] /" + InstanceIdShort(),
+  name: "Interactive Keboola Sheets [KEBOOLA-SHEETS-APP] /" + RandomID(),
   isDisabled: false,
 }
