@@ -1,4 +1,4 @@
 {
-  name: "Data App [KAI-SQL-BOT] /" + InstanceIdShort(),
+  name: "Data App [KAI-SQL-BOT] /" + RandomID(),
   isDisabled: false,
 }
