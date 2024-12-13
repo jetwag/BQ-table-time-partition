@@ -11,7 +11,7 @@
       "description": "Streamline your AI prompting process! Use this Streamlit app to refine, test, and compare multiple prompts, ensuring optimal results. Dive into AI with enhanced efficiency!",
       "requirements": 
         {
-          "backends": ["snowflake"],
+          "backends": ["snowflake","bigquery"],
           "components": ["keboola.data-apps"],
           "features": ["sandboxes-data-apps"]
         },
@@ -38,7 +38,7 @@
       "description": "Chat with our AI-driven SQL Bot to effortlessly query your Snowflake database. Seamless and powerful!",
       "requirements":
         {
-          "backends": ["snowflake"],
+          "backends": ["snowflake","bigquery"],
           "components": ["keboola.data-apps"],
           "features": ["sandboxes-data-apps"]
         },
@@ -64,9 +64,7 @@
       "name": "Hello World",
       "description": "Experience a Streamlit web app with interactive widgets and optimized performance, showcasing caching for fast data loading and a user-friendly interface.",
       "requirements": {
-        "backends": [
-          "snowflake"
-        ],
+        "backends": ["snowflake","bigquery"],
         "components": ["keboola.data-apps"],
         "features": [
           "sandboxes-data-apps"
@@ -94,7 +92,7 @@
       "description": "Simplify your data editing and management within your company using this demo data app that showcases the interaction between Streamlit and Keboola Storage.",
       "requirements":
         {
-          "backends": ["snowflake"],
+          "backends": ["snowflake","bigquery"],
           "components": ["keboola.data-apps"],
           "features": ["sandboxes-data-apps"]
         },
@@ -110,6 +108,84 @@
           "stable": false,
           "components": [
             "keboola.data-apps"
+          ],
+          "path": "v0"
+        }
+      ]
+    },
+        {
+      "id": "facebook-ads-campaigns",
+      "name": "Facebook Ads - Campaigns",
+      "description": "This data source is getting data about Facebook campaigns for the last month.",
+      "requirements":
+        {
+          "backends": ["snowflake","bigquery"],
+          "components": ["keboola.ex-facebook-ads"]
+        },
+      "path": "keboola.ex-facebook-ads/facebook-ads-campaigns",
+      "deprecated": false,
+      "categories": [
+        "Marketing"
+      ],
+      "versions": [
+        {
+          "version": "1.0.0",
+          "description": "",
+          "stable": false,
+          "components": [
+            "keboola.ex-facebook-ads"
+          ],
+          "path": "v0"
+        }
+      ]
+    },
+    {
+      "id": "facebook-ads-adsets",
+      "name": "Facebook Ads - Adsets",
+      "description": "This data source is getting data about Facebook adsets for the last month.",
+      "requirements":
+        {
+          "backends": ["snowflake","bigquery"],
+          "components": ["keboola.ex-facebook-ads"]
+        },
+      "path": "keboola.ex-facebook-ads/facebook-ads-adsets",
+      "deprecated": false,
+      "categories": [
+        "Marketing"
+      ],
+      "versions": [
+        {
+          "version": "1.0.0",
+          "description": "",
+          "stable": false,
+          "components": [
+            "keboola.ex-facebook-ads"
+          ],
+          "path": "v0"
+        }
+      ]
+    },
+    {
+      "id": "facebook-ads-ads",
+      "name": "Facebook Ads - Ads",
+      "description": "This data source is getting data about Facebook ads for the last month.",
+      "requirements":
+        {
+          "backends": ["snowflake","bigquery"],
+          "components": ["keboola.ex-facebook-ads"]
+        },
+      "path": "keboola.ex-facebook-ads/facebook-ads-ads",
+      "deprecated": false,
+      "categories": [
+        "Marketing"
+      ],
+      "versions": [
+        {
+          "version": "1.0.0",
+          "description": "",
+          "stable": false,
+          "components": [
+            "keboola.ex-facebook-ads"
           ],
           "path": "v0"
         }
