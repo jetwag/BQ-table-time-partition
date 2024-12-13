@@ -1,4 +1,4 @@
 {
-  name: "Data App [KAI-PROMPTLAB] /" + InstanceIdShort(),
+  name: "Data App [KAI-PROMPTLAB] /" + RandomID(),
   isDisabled: false,
 }
