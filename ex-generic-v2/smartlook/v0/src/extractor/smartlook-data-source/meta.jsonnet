@@ -1,0 +1,4 @@
+{
+  name: "SMARTLOOK",
+  isDisabled: false,
+}
