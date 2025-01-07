@@ -190,6 +190,294 @@
           "path": "v0"
         }
       ]
+    },
+    {
+      "id": "gitlab-pipelines",
+      "name": "GitLab - Pipelines",
+      "description": "Description",
+      "requirements":
+        {
+          "backends": ["snowflake"],
+          "components": ["ex-generic-v2"]
+        },
+      "path": "ex-generic-v2/gitlab-pipelines",
+      "deprecated": false,
+      "categories": ["Git"],
+      "versions": [
+        {
+          "version": "1.0.0",
+          "description": "",
+          "stable": false,
+          "components": [
+            "ex-generic-v2"
+          ],
+          "path": "v0"
+        }
+      ]
+    },
+    {
+      "id": "gitlab-projects",
+      "name": "GitLab - Projects",
+      "description": "Description",
+      "requirements":
+        {
+          "backends": ["snowflake"],
+          "components": ["ex-generic-v2"]
+        },
+      "path": "ex-generic-v2/gitlab-projects",
+      "deprecated": false,
+      "categories": ["Git"],
+      "versions": [
+        {
+          "version": "1.0.0",
+          "description": "",
+          "stable": false,
+          "components": [
+            "ex-generic-v2"
+          ],
+          "path": "v0"
+        }
+      ]
+    },
+    {
+      "id": "keboola-configuration-events",
+      "name": "Keboola - Configuration Events",
+      "description": "This is the data source that returns the event data of a specific configuration in Keboola.",
+      "requirements":
+        {
+          "backends": ["snowflake"],
+          "components": ["ex-generic-v2"]
+        },
+      "path": "ex-generic-v2/keboola-configuration-events",
+      "deprecated": false,
+      "categories": [],
+      "versions": [
+        {
+          "version": "1.0.0",
+          "description": "",
+          "stable": false,
+          "components": [
+            "ex-generic-v2"
+          ],
+          "path": "v0"
+        }
+      ]
+    },
+    {
+      "id": "keboola-deleted-tables",
+      "name": "Keboola - Deleted Tables",
+      "description": "This is the data source that returns data about deleted tables in Keboola.",
+      "requirements":
+        {
+          "backends": ["snowflake"],
+          "components": ["ex-generic-v2"]
+        },
+      "path": "ex-generic-v2/keboola-deleted-tables",
+      "deprecated": false,
+      "categories": [],
+      "versions": [
+        {
+          "version": "1.0.0",
+          "description": "",
+          "stable": false,
+          "components": [
+            "ex-generic-v2"
+          ],
+          "path": "v0"
+        }
+      ]
+    },
+    {
+      "id": "keboola-project-tables-with-metadata",
+      "name": "Keboola - Project Tables with Metadata",
+      "description": "This data source returns metadata about all tables and buckets in the selected Keboola project.",
+      "requirements":
+        {
+          "backends": ["snowflake"],
+          "components": ["ex-generic-v2"]
+        },
+      "path": "ex-generic-v2/keboola-project-tables-with-metadata",
+      "deprecated": false,
+      "categories": [],
+      "versions": [
+        {
+          "version": "1.0.0",
+          "description": "",
+          "stable": false,
+          "components": [
+            "ex-generic-v2"
+          ],
+          "path": "v0"
+        }
+      ]
+    },
+    {
+      "id": "keboola-queue-jobs",
+      "name": "Keboola - Queue Jobs",
+      "description": "This data source returns data about jobs in the selected Keboola project.",
+      "requirements":
+        {
+          "backends": ["snowflake"],
+          "components": ["ex-generic-v2"]
+        },
+      "path": "ex-generic-v2/keboola-queue-jobs",
+      "deprecated": false,
+      "categories": [],
+      "versions": [
+        {
+          "version": "1.0.0",
+          "description": "",
+          "stable": false,
+          "components": [
+            "ex-generic-v2"
+          ],
+          "path": "v0"
+        }
+      ]
+    },
+    {
+      "id": "keboola-sandboxes",
+      "name": "Keboola - Sandboxes",
+      "description": "This data source returns data about sandboxes in the selected Keboola project.",
+      "requirements":
+        {
+          "backends": ["snowflake"],
+          "components": ["ex-generic-v2"]
+        },
+      "path": "ex-generic-v2/keboola-sandboxes",
+      "deprecated": false,
+      "categories": [],
+      "versions": [
+        {
+          "version": "1.0.0",
+          "description": "",
+          "stable": false,
+          "components": [
+            "ex-generic-v2"
+          ],
+          "path": "v0"
+        }
+      ]
+    },
+    {
+      "id": "keboola-storage-size",
+      "name": "Keboola - Storage Size",
+      "description": "This data source returns metadata about the tables including their storage size in the selected Keboola project.",
+      "requirements":
+        {
+          "backends": ["snowflake"],
+          "components": ["ex-generic-v2"]
+        },
+      "path": "ex-generic-v2/keboola-storage-size",
+      "deprecated": false,
+      "categories": [],
+      "versions": [
+        {
+          "version": "1.0.0",
+          "description": "",
+          "stable": false,
+          "components": [
+            "ex-generic-v2"
+          ],
+          "path": "v0"
+        }
+      ]
+    },
+    {
+      "id": "opsgenie",
+      "name": "Opsgenie",
+      "description": "The data source retrieves data about teams, users, alerts, and schedules from your Opsgenie.",
+      "requirements":
+        {
+          "backends": ["snowflake"],
+          "components": ["ex-generic-v2"]
+        },
+      "path": "ex-generic-v2/opsgenie",
+      "deprecated": false,
+      "categories": [],
+      "versions": [
+        {
+          "version": "1.0.0",
+          "description": "",
+          "stable": false,
+          "components": [
+            "ex-generic-v2"
+          ],
+          "path": "v0"
+        }
+      ]
+    },
+    {
+      "id": "smartlook",
+      "name": "Smartlook",
+      "description": "This data source retrieves data about sessions.",
+      "requirements":
+        {
+          "backends": ["snowflake"],
+          "components": ["ex-generic-v2"]
+        },
+      "path": "ex-generic-v2/smartlook",
+      "deprecated": false,
+      "categories": [],
+      "versions": [
+        {
+          "version": "1.0.0",
+          "description": "",
+          "stable": false,
+          "components": [
+            "ex-generic-v2"
+          ],
+          "path": "v0"
+        }
+      ]
+    },
+    {
+      "id": "rootly",
+      "name": "Rootly",
+      "description": "This data source retrieves data about incident insights.",
+      "requirements":
+        {
+          "backends": ["snowflake"],
+          "components": ["ex-generic-v2"]
+        },
+      "path": "ex-generic-v2/rootly",
+      "deprecated": false,
+      "categories": [],
+      "versions": [
+        {
+          "version": "1.0.0",
+          "description": "",
+          "stable": false,
+          "components": [
+            "ex-generic-v2"
+          ],
+          "path": "v0"
+        }
+      ]
+    },
+    {
+      "id": "calendarific",
+      "name": "Calendarific",
+      "description": "This is a data source returning dates of holidays in 4 countries (GB,US,CA,CZ) in the selected year.",
+      "requirements":
+        {
+          "backends": ["snowflake"],
+          "components": ["ex-generic-v2"]
+        },
+      "path": "ex-generic-v2/calendarific",
+      "deprecated": false,
+      "categories": [],
+      "versions": [
+        {
+          "version": "1.0.0",
+          "description": "",
+          "stable": false,
+          "components": [
+            "ex-generic-v2"
+          ],
+          "path": "v0"
+        }
+      ]
     }
   ]
 }
