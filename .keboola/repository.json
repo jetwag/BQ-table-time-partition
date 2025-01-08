@@ -194,10 +194,10 @@
     {
       "id": "gitlab-pipelines",
       "name": "GitLab - Pipelines",
-      "description": "Description",
+      "description": "This data source is getting data about GitLab projects and pipelines.",
       "requirements":
         {
-          "backends": ["snowflake"],
+          "backends": ["snowflake","bigquery"],
           "components": ["ex-generic-v2"]
         },
       "path": "ex-generic-v2/gitlab-pipelines",
@@ -218,10 +218,10 @@
     {
       "id": "gitlab-projects",
       "name": "GitLab - Projects",
-      "description": "Description",
+      "description": "This data source is getting data about GitLab projects.",
       "requirements":
         {
-          "backends": ["snowflake"],
+          "backends": ["snowflake","bigquery"],
           "components": ["ex-generic-v2"]
         },
       "path": "ex-generic-v2/gitlab-projects",
@@ -245,7 +245,7 @@
       "description": "This is the data source that returns the event data of a specific configuration in Keboola.",
       "requirements":
         {
-          "backends": ["snowflake"],
+          "backends": ["snowflake","bigquery"],
           "components": ["ex-generic-v2"]
         },
       "path": "ex-generic-v2/keboola-configuration-events",
@@ -269,7 +269,7 @@
       "description": "This is the data source that returns data about deleted tables in Keboola.",
       "requirements":
         {
-          "backends": ["snowflake"],
+          "backends": ["snowflake","bigquery"],
           "components": ["ex-generic-v2"]
         },
       "path": "ex-generic-v2/keboola-deleted-tables",
@@ -293,7 +293,7 @@
       "description": "This data source returns metadata about all tables and buckets in the selected Keboola project.",
       "requirements":
         {
-          "backends": ["snowflake"],
+          "backends": ["snowflake","bigquery"],
           "components": ["ex-generic-v2"]
         },
       "path": "ex-generic-v2/keboola-project-tables-with-metadata",
@@ -317,7 +317,7 @@
       "description": "This data source returns data about jobs in the selected Keboola project.",
       "requirements":
         {
-          "backends": ["snowflake"],
+          "backends": ["snowflake","bigquery"],
           "components": ["ex-generic-v2"]
         },
       "path": "ex-generic-v2/keboola-queue-jobs",
@@ -341,7 +341,7 @@
       "description": "This data source returns data about sandboxes in the selected Keboola project.",
       "requirements":
         {
-          "backends": ["snowflake"],
+          "backends": ["snowflake","bigquery"],
           "components": ["ex-generic-v2"]
         },
       "path": "ex-generic-v2/keboola-sandboxes",
@@ -365,7 +365,7 @@
       "description": "This data source returns metadata about the tables including their storage size in the selected Keboola project.",
       "requirements":
         {
-          "backends": ["snowflake"],
+          "backends": ["snowflake","bigquery"],
           "components": ["ex-generic-v2"]
         },
       "path": "ex-generic-v2/keboola-storage-size",
@@ -389,7 +389,7 @@
       "description": "The data source retrieves data about teams, users, alerts, and schedules from your Opsgenie.",
       "requirements":
         {
-          "backends": ["snowflake"],
+          "backends": ["snowflake","bigquery"],
           "components": ["ex-generic-v2"]
         },
       "path": "ex-generic-v2/opsgenie",
@@ -413,7 +413,7 @@
       "description": "This data source retrieves data about sessions.",
       "requirements":
         {
-          "backends": ["snowflake"],
+          "backends": ["snowflake","bigquery"],
           "components": ["ex-generic-v2"]
         },
       "path": "ex-generic-v2/smartlook",
@@ -437,7 +437,7 @@
       "description": "This data source retrieves data about incident insights.",
       "requirements":
         {
-          "backends": ["snowflake"],
+          "backends": ["snowflake","bigquery"],
           "components": ["ex-generic-v2"]
         },
       "path": "ex-generic-v2/rootly",
@@ -461,7 +461,7 @@
       "description": "This is a data source returning dates of holidays in 4 countries (GB,US,CA,CZ) in the selected year.",
       "requirements":
         {
-          "backends": ["snowflake"],
+          "backends": ["snowflake","bigquery"],
           "components": ["ex-generic-v2"]
         },
       "path": "ex-generic-v2/calendarific",
