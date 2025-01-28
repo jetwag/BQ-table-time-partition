@@ -1,12 +1,12 @@
 { mainConfig: {
     componentId: "keboola.ex-google-ads",
-    id: ConfigId("google-ads-campaigns"),
+    id: ConfigId("google-ads-adgroups-data-source"),
   },
   configurations: [
     {
         componentId: "keboola.ex-google-ads",
-        id: ConfigId("google-ads-campaigns"),
-        path: "extractor/google-ads-campaigns",
+        id: ConfigId("google-ads-adgroups-data-source"),
+        path: "extractor/google-ads-adgroups-data-source",
         rows: [
         {
             id: ConfigRowId("campaigns"),
