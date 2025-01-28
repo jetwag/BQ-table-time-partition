@@ -478,6 +478,84 @@
           "path": "v0"
         }
       ]
+    },
+    {
+      "id": "google-ads-ads",
+      "name": "Google Ads - Ads",
+      "description": "This data source is getting data about Google Ads at the level of ads.",
+      "requirements":
+        {
+          "backends": ["snowflake","bigquery"],
+          "components": ["keboola.ex-google-ads"]
+        },
+      "path": "keboola.ex-google-ads/google-ads-ads",
+      "deprecated": false,
+      "categories": [
+        "Marketing"
+      ],
+      "versions": [
+        {
+          "version": "1.0.0",
+          "description": "",
+          "stable": false,
+          "components": [
+            "keboola.ex-google-ads"
+          ],
+          "path": "v0"
+        }
+      ]
+    },
+    {
+      "id": "google-ads-adgroups",
+      "name": "Google Ads - AdGroups",
+      "description": "This data source is getting data about Google Ads ad-groups.",
+      "requirements":
+        {
+          "backends": ["snowflake","bigquery"],
+          "components": ["keboola.ex-google-ads"]
+        },
+      "path": "keboola.ex-google-ads/google-ads-adgroups",
+      "deprecated": false,
+      "categories": [
+        "Marketing"
+      ],
+      "versions": [
+        {
+          "version": "1.0.0",
+          "description": "",
+          "stable": false,
+          "components": [
+            "keboola.ex-google-ads"
+          ],
+          "path": "v0"
+        }
+      ]
+    },
+    {
+      "id": "google-ads-campaigns",
+      "name": "Google Ads - Campaigns",
+      "description": "This data source is getting data about Google Ads campaigns.",
+      "requirements":
+        {
+          "backends": ["snowflake","bigquery"],
+          "components": ["keboola.ex-google-ads"]
+        },
+      "path": "keboola.ex-google-ads/google-ads-campaigns",
+      "deprecated": false,
+      "categories": [
+        "Marketing"
+      ],
+      "versions": [
+        {
+          "version": "1.0.0",
+          "description": "",
+          "stable": false,
+          "components": [
+            "keboola.ex-google-ads"
+          ],
+          "path": "v0"
+        }
+      ]
     }
   ]
 }

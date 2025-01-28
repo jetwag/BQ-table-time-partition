@@ -1,0 +1,4 @@
+{
+  name: "campaigns",
+  isDisabled: false,
+}
