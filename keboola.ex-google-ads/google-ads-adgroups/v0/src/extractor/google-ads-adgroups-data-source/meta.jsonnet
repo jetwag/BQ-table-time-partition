@@ -1,4 +1,4 @@
 {
-  name: "GOOGLE ADS - Campaigns",
+  name: "GOOGLE ADS - AdGroups",
   isDisabled: false,
 }
