@@ -15,7 +15,6 @@
               description: "Insert a storage or your master token.",
               type: "string",
               kind: "hidden",
-              rules: "required",
             },
             {
               id: "kbc_hostname",

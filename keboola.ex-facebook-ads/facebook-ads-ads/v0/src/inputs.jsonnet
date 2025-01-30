@@ -18,7 +18,6 @@
                 type:        "object",
                 kind:        "oauth",
                 componentId: "keboola.ex-facebook-ads",
-                rules:       "required",
             },
             {
                 id:           "oauth-facebookads-accounts",
@@ -27,7 +26,6 @@
                 type:         "object",
                 kind:         "oauthAccounts",
                 oauthInputId: "oauth-facebookads",
-                rules:        "required",
             },
           ],
         },
