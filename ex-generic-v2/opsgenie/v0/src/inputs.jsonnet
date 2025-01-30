@@ -15,7 +15,6 @@
               description: "Provide your Opsgenie API Token.",
               type: "string",
               kind: "hidden",
-              rules: "required",
             },
           ],
         },

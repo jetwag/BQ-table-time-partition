@@ -15,7 +15,6 @@
               description: "Provide your GitLab API Token.",
               type: "string",
               kind: "hidden",
-              rules: "required",
             },
           ],
         },

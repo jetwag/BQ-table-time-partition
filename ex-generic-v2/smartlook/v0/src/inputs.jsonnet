@@ -15,7 +15,6 @@
               description: "Provide your Smartlook API Token.",
               type: "string",
               kind: "hidden",
-              rules: "required",
             },
           ],
         },

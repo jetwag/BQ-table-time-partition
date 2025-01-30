@@ -18,7 +18,6 @@
                 type:        "object",
                 kind:        "oauth",
                 componentId: "keboola.ex-google-ads",
-                rules:       "required",
             },
             {
                 id:           "oauth-googleads-accounts",
@@ -27,7 +26,6 @@
                 type:         "object",
                 kind:         "oauthAccounts",
                 oauthInputId: "oauth-googleads",
-                rules:        "required",
             },
             {
                 id: "ex-google-ads-since",

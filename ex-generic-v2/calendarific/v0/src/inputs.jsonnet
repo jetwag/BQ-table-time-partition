@@ -15,7 +15,6 @@
               description: "Provide Calendarific API Token.",
               type: "string",
               kind: "hidden",
-              rules: "required",
             },
             {
               id: "year",
@@ -23,7 +22,6 @@
               description: "Write the year for which you want to get data.",
               type: "string",
               kind: "input",
-              rules: "required",
             },
           ],
         },

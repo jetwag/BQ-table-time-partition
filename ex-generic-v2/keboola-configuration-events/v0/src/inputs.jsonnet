@@ -15,7 +15,6 @@
               description: "Insert a storage or your master token.",
               type: "string",
               kind: "hidden",
-              rules: "required",
             },
             {
               id: "kbc_hostname",
@@ -31,7 +30,6 @@
               description: "Insert Component ID.",
               type: "string",
               kind: "input",
-              rules: "required",
               default: "keboola.snowflake-transformation"
             },
             {
@@ -40,7 +38,6 @@
               description: "Insert Configuration ID.",
               type: "string",
               kind: "input",
-              rules: "required",
               default: "123456789"
             },
           ],

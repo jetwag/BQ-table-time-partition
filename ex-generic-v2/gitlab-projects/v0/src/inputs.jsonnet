@@ -15,7 +15,6 @@
               description: "Provide your GitLab API Token.",
               type: "string",
               kind: "hidden",
-              rules: "required",
             },
             {
               id: "project_id",
@@ -23,7 +22,6 @@
               description: "Insert Project ID.",
               type: "string",
               kind: "input",
-              rules: "required",
             },
 
           ],
