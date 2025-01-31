@@ -556,6 +556,114 @@
           "path": "v0"
         }
       ]
+    },
+    {
+      "id": "google-analytics-traffic",
+      "name": "Google Analytics - Traffic Acquisition",
+      "description": "An extractor that pulls Google Analytics traffic acquisition data, tracking sources, user types, and engagement metrics.",
+      "requirements": {
+        "backends": [
+          "snowflake",
+          "bigquery"
+        ],
+        "components": [
+          "keboola.ex-google-analytics-v4"
+        ],
+        "features": null
+      },
+      "path": "keboola.ex-google-analytics-v4/google-analytics-traffic",
+      "versions": [
+        {
+          "version": "0.0.1",
+          "description": "",
+          "stable": false,
+          "components": [
+            "keboola.ex-google-analytics-v4"
+          ],
+          "path": "v0"
+        }
+      ]
+    },
+    {
+      "id": "google-analytics-user",
+      "name": "Google Analytics - User Acquisition",
+      "description": "An extractor that retrieves Google Analytics user acquisition data, providing insights into user demographics and engagement metrics.",
+      "requirements": {
+        "backends": [
+          "snowflake",
+          "bigquery"
+        ],
+        "components": [
+          "keboola.ex-google-analytics-v4"
+        ],
+        "features": null
+      },
+      "path": "keboola.ex-google-analytics-v4/google-analytics-user",
+      "versions": [
+        {
+          "version": "0.0.1",
+          "description": "",
+          "stable": false,
+          "components": [
+            "keboola.ex-google-analytics-v4"
+          ],
+          "path": "v0"
+        }
+      ]
+    },
+    {
+      "id": "google-analytics-events",
+      "name": "Google Analytics - Events Engagement",
+      "description": "An extractor that pulls Google Analytics event engagement data for user interaction insights.",
+      "requirements": {
+        "backends": [
+          "snowflake",
+          "bigquery"
+        ],
+        "components": [
+          "keboola.ex-google-analytics-v4"
+        ],
+        "features": null
+      },
+      "path": "keboola.ex-google-analytics-v4/google-analytics-events",
+      "versions": [
+        {
+          "version": "0.0.1",
+          "description": "",
+          "stable": false,
+          "components": [
+            "keboola.ex-google-analytics-v4"
+          ],
+          "path": "v0"
+        }
+      ]
+    },
+    {
+      "id": "google-analytics-landing-page",
+      "name": "Google Analytics - Landing Page Insights",
+      "description": "An extractor that retrieves Google Analytics landing page engagement data for performance insights.",
+      "requirements": {
+        "backends": [
+          "snowflake",
+          "bigquery"
+        ],
+        "components": [
+          "keboola.ex-google-analytics-v4"
+        ],
+        "features": null
+      },
+      "path": "keboola.ex-google-analytics-v4/google-analytics-landing-page",
+      "versions": [
+        {
+          "version": "0.0.1",
+          "description": "",
+          "stable": false,
+          "components": [
+            "keboola.ex-google-analytics-v4"
+          ],
+          "path": "v0"
+        }
+      ]
     }
   ]
 }
