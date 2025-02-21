@@ -563,10 +563,10 @@
       "description": "This template provides a powerful and efficient solution for downloading and processing large-scale data files from AWS S3 using DuckDB. It's specifically designed to handle big data scenarios where traditional download methods might be impractical or inefficient.",
       "requirements": {
         "backends": null,
-        "components": "keboola.ex-aws-s3",
+        "components": ["keboola.ex-aws-s3"],
         "features": null
       },
-      "path": "s3-download-using-duck-db",
+      "path": "keboola.ex-aws-s3/s3-download-using-duck-db",
       "versions": [
         {
           "version": "0.0.1",
