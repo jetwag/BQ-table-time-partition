@@ -482,7 +482,7 @@
     {
       "id": "keboola-bq-timepartioned-table",
       "name": "Create BQ Time Partitioned Table",
-      "description": "Create a BQ table with time partitioning. Table must only contain PK column and the colmnn that will be used for time partitioning.",
+      "description": "Create a BigQuery backend table with time partitioning.",
       "requirements": {
         "backends": ["bigquery"],
         "components": null,
