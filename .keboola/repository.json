@@ -6,127 +6,50 @@
   },
   "templates": [
     {
-      "id": "kai-promptlab",
-      "name": "Kai PromptLab",
-      "description": "Streamline your AI prompting process! Use this Streamlit app to refine, test, and compare multiple prompts, ensuring optimal results. Dive into AI with enhanced efficiency!",
-      "requirements": 
-        {
-          "backends": ["snowflake","bigquery"],
-          "components": ["keboola.data-apps"],
-          "features": ["sandboxes-data-apps"]
-        },
-      "path": "keboola.data-apps/kai-promptlab",
-      "deprecated": false,
-      "categories": [
-        "Data Apps", "Artificial Intelligence"
-      ],
-      "versions": [
-        {
-          "version": "1.0.0",
-          "description": "",
-          "stable": false,
-          "components": [
-            "keboola.data-apps"
-          ],
-          "path": "v0"
-        }
-      ]
-    },
-    {
-      "id": "kai-sql-bot",
-      "name": "Kai SQL bot",
-      "description": "Chat with our AI-driven SQL Bot to effortlessly query your Snowflake database. Seamless and powerful!",
-      "requirements":
-        {
-          "backends": ["snowflake","bigquery"],
-          "components": ["keboola.data-apps"],
-          "features": ["sandboxes-data-apps"]
-        },
-      "path": "keboola.data-apps/kai-sql-bot",
-      "deprecated": false,
-      "categories": [
-        "Data Apps", "Artificial Intelligence"
-      ],
-      "versions": [
-        {
-          "version": "1.0.0",
-          "description": "",
-          "stable": false,
-          "components": [
-            "keboola.data-apps"
-          ],
-          "path": "v0"
-        }
-      ]
-    },
-    {
-      "id": "hello-world",
-      "name": "Hello World",
-      "description": "Experience a Streamlit web app with interactive widgets and optimized performance, showcasing caching for fast data loading and a user-friendly interface.",
+      "id": "calendarific",
+      "name": "Calendarific",
+      "description": "This is a data source returning dates of holidays in 4 countries (GB,US,CA,CZ) in the selected year.",
       "requirements": {
-        "backends": ["snowflake","bigquery"],
-        "components": ["keboola.data-apps"],
-        "features": [
-          "sandboxes-data-apps"
-        ]
+        "backends": [
+          "snowflake",
+          "bigquery"
+        ],
+        "components": [
+          "ex-generic-v2"
+        ],
+        "features": null
       },
-      "categories": [
-        "Data Apps", "Tutorials"
-      ],
-      "path": "keboola.data-apps/hello-world",
-      "versions": [
-        {
-          "version": "0.0.1",
-          "description": "",
-          "stable": false,
-          "components": [
-            "keboola.data-apps"
-          ],
-          "path": "v0"
-        }
-      ]
-    },
-    {
-      "id": "keboola-data-editor",
-      "name": "Keboola Data Editor",
-      "description": "Simplify your data editing and management within your company using this demo data app that showcases the interaction between Streamlit and Keboola Storage.",
-      "requirements":
-        {
-          "backends": ["snowflake","bigquery"],
-          "components": ["keboola.data-apps"],
-          "features": ["sandboxes-data-apps"]
-        },
-      "path": "keboola.data-apps/keboola-data-editor",
-      "deprecated": false,
-      "categories": [
-        "Data Apps"
-      ],
+      "path": "ex-generic-v2/calendarific",
       "versions": [
         {
           "version": "1.0.0",
           "description": "",
           "stable": false,
           "components": [
-            "keboola.data-apps"
+            "ex-generic-v2"
           ],
           "path": "v0"
         }
       ]
     },
-        {
-      "id": "facebook-ads-campaigns",
-      "name": "Facebook Ads - Campaigns",
-      "description": "This data source is getting data about Facebook campaigns for the last month.",
-      "requirements":
-        {
-          "backends": ["snowflake","bigquery"],
-          "components": ["keboola.ex-facebook-ads"]
-        },
-      "path": "keboola.ex-facebook-ads/facebook-ads-campaigns",
-      "deprecated": false,
+    {
+      "id": "facebook-ads-ads",
+      "name": "Facebook Ads - Ads",
+      "description": "This data source is getting data about Facebook ads for the last month.",
+      "requirements": {
+        "backends": [
+          "snowflake",
+          "bigquery"
+        ],
+        "components": [
+          "keboola.ex-facebook-ads"
+        ],
+        "features": null
+      },
       "categories": [
         "Marketing"
       ],
+      "path": "keboola.ex-facebook-ads/facebook-ads-ads",
       "versions": [
         {
           "version": "1.0.0",
@@ -143,16 +66,20 @@
       "id": "facebook-ads-adsets",
       "name": "Facebook Ads - Adsets",
       "description": "This data source is getting data about Facebook adsets for the last month.",
-      "requirements":
-        {
-          "backends": ["snowflake","bigquery"],
-          "components": ["keboola.ex-facebook-ads"]
-        },
-      "path": "keboola.ex-facebook-ads/facebook-ads-adsets",
-      "deprecated": false,
+      "requirements": {
+        "backends": [
+          "snowflake",
+          "bigquery"
+        ],
+        "components": [
+          "keboola.ex-facebook-ads"
+        ],
+        "features": null
+      },
       "categories": [
         "Marketing"
       ],
+      "path": "keboola.ex-facebook-ads/facebook-ads-adsets",
       "versions": [
         {
           "version": "1.0.0",
@@ -166,19 +93,23 @@
       ]
     },
     {
-      "id": "facebook-ads-ads",
-      "name": "Facebook Ads - Ads",
-      "description": "This data source is getting data about Facebook ads for the last month.",
-      "requirements":
-        {
-          "backends": ["snowflake","bigquery"],
-          "components": ["keboola.ex-facebook-ads"]
-        },
-      "path": "keboola.ex-facebook-ads/facebook-ads-ads",
-      "deprecated": false,
+      "id": "facebook-ads-campaigns",
+      "name": "Facebook Ads - Campaigns",
+      "description": "This data source is getting data about Facebook campaigns for the last month.",
+      "requirements": {
+        "backends": [
+          "snowflake",
+          "bigquery"
+        ],
+        "components": [
+          "keboola.ex-facebook-ads"
+        ],
+        "features": null
+      },
       "categories": [
         "Marketing"
       ],
+      "path": "keboola.ex-facebook-ads/facebook-ads-campaigns",
       "versions": [
         {
           "version": "1.0.0",
@@ -195,14 +126,20 @@
       "id": "gitlab-pipelines",
       "name": "GitLab - Pipelines",
       "description": "This data source is getting data about GitLab projects and pipelines.",
-      "requirements":
-        {
-          "backends": ["snowflake","bigquery"],
-          "components": ["ex-generic-v2"]
-        },
+      "requirements": {
+        "backends": [
+          "snowflake",
+          "bigquery"
+        ],
+        "components": [
+          "ex-generic-v2"
+        ],
+        "features": null
+      },
+      "categories": [
+        "Git"
+      ],
       "path": "ex-generic-v2/gitlab-pipelines",
-      "deprecated": false,
-      "categories": ["Git"],
       "versions": [
         {
           "version": "1.0.0",
@@ -219,14 +156,20 @@
       "id": "gitlab-projects",
       "name": "GitLab - Projects",
       "description": "This data source is getting data about GitLab projects.",
-      "requirements":
-        {
-          "backends": ["snowflake","bigquery"],
-          "components": ["ex-generic-v2"]
-        },
+      "requirements": {
+        "backends": [
+          "snowflake",
+          "bigquery"
+        ],
+        "components": [
+          "ex-generic-v2"
+        ],
+        "features": null
+      },
+      "categories": [
+        "Git"
+      ],
       "path": "ex-generic-v2/gitlab-projects",
-      "deprecated": false,
-      "categories": ["Git"],
       "versions": [
         {
           "version": "1.0.0",
@@ -240,259 +183,23 @@
       ]
     },
     {
-      "id": "keboola-configuration-events",
-      "name": "Keboola - Configuration Events",
-      "description": "This is the data source that returns the event data of a specific configuration in Keboola.",
-      "requirements":
-        {
-          "backends": ["snowflake","bigquery"],
-          "components": ["ex-generic-v2"]
-        },
-      "path": "ex-generic-v2/keboola-configuration-events",
-      "deprecated": false,
-      "categories": [],
-      "versions": [
-        {
-          "version": "1.0.0",
-          "description": "",
-          "stable": false,
-          "components": [
-            "ex-generic-v2"
-          ],
-          "path": "v0"
-        }
-      ]
-    },
-    {
-      "id": "keboola-deleted-tables",
-      "name": "Keboola - Deleted Tables",
-      "description": "This is the data source that returns data about deleted tables in Keboola.",
-      "requirements":
-        {
-          "backends": ["snowflake","bigquery"],
-          "components": ["ex-generic-v2"]
-        },
-      "path": "ex-generic-v2/keboola-deleted-tables",
-      "deprecated": false,
-      "categories": [],
-      "versions": [
-        {
-          "version": "1.0.0",
-          "description": "",
-          "stable": false,
-          "components": [
-            "ex-generic-v2"
-          ],
-          "path": "v0"
-        }
-      ]
-    },
-    {
-      "id": "keboola-project-tables-with-metadata",
-      "name": "Keboola - Project Tables with Metadata",
-      "description": "This data source returns metadata about all tables and buckets in the selected Keboola project.",
-      "requirements":
-        {
-          "backends": ["snowflake","bigquery"],
-          "components": ["ex-generic-v2"]
-        },
-      "path": "ex-generic-v2/keboola-project-tables-with-metadata",
-      "deprecated": false,
-      "categories": [],
-      "versions": [
-        {
-          "version": "1.0.0",
-          "description": "",
-          "stable": false,
-          "components": [
-            "ex-generic-v2"
-          ],
-          "path": "v0"
-        }
-      ]
-    },
-    {
-      "id": "keboola-queue-jobs",
-      "name": "Keboola - Queue Jobs",
-      "description": "This data source returns data about jobs in the selected Keboola project.",
-      "requirements":
-        {
-          "backends": ["snowflake","bigquery"],
-          "components": ["ex-generic-v2"]
-        },
-      "path": "ex-generic-v2/keboola-queue-jobs",
-      "deprecated": false,
-      "categories": [],
-      "versions": [
-        {
-          "version": "1.0.0",
-          "description": "",
-          "stable": false,
-          "components": [
-            "ex-generic-v2"
-          ],
-          "path": "v0"
-        }
-      ]
-    },
-    {
-      "id": "keboola-sandboxes",
-      "name": "Keboola - Sandboxes",
-      "description": "This data source returns data about sandboxes in the selected Keboola project.",
-      "requirements":
-        {
-          "backends": ["snowflake","bigquery"],
-          "components": ["ex-generic-v2"]
-        },
-      "path": "ex-generic-v2/keboola-sandboxes",
-      "deprecated": false,
-      "categories": [],
-      "versions": [
-        {
-          "version": "1.0.0",
-          "description": "",
-          "stable": false,
-          "components": [
-            "ex-generic-v2"
-          ],
-          "path": "v0"
-        }
-      ]
-    },
-    {
-      "id": "keboola-storage-size",
-      "name": "Keboola - Storage Size",
-      "description": "This data source returns metadata about the tables including their storage size in the selected Keboola project.",
-      "requirements":
-        {
-          "backends": ["snowflake","bigquery"],
-          "components": ["ex-generic-v2"]
-        },
-      "path": "ex-generic-v2/keboola-storage-size",
-      "deprecated": false,
-      "categories": [],
-      "versions": [
-        {
-          "version": "1.0.0",
-          "description": "",
-          "stable": false,
-          "components": [
-            "ex-generic-v2"
-          ],
-          "path": "v0"
-        }
-      ]
-    },
-    {
-      "id": "opsgenie",
-      "name": "Opsgenie",
-      "description": "The data source retrieves data about teams, users, alerts, and schedules from your Opsgenie.",
-      "requirements":
-        {
-          "backends": ["snowflake","bigquery"],
-          "components": ["ex-generic-v2"]
-        },
-      "path": "ex-generic-v2/opsgenie",
-      "deprecated": false,
-      "categories": [],
-      "versions": [
-        {
-          "version": "1.0.0",
-          "description": "",
-          "stable": false,
-          "components": [
-            "ex-generic-v2"
-          ],
-          "path": "v0"
-        }
-      ]
-    },
-    {
-      "id": "smartlook",
-      "name": "Smartlook",
-      "description": "This data source retrieves data about sessions.",
-      "requirements":
-        {
-          "backends": ["snowflake","bigquery"],
-          "components": ["ex-generic-v2"]
-        },
-      "path": "ex-generic-v2/smartlook",
-      "deprecated": false,
-      "categories": [],
-      "versions": [
-        {
-          "version": "1.0.0",
-          "description": "",
-          "stable": false,
-          "components": [
-            "ex-generic-v2"
-          ],
-          "path": "v0"
-        }
-      ]
-    },
-    {
-      "id": "rootly",
-      "name": "Rootly",
-      "description": "This data source retrieves data about incident insights.",
-      "requirements":
-        {
-          "backends": ["snowflake","bigquery"],
-          "components": ["ex-generic-v2"]
-        },
-      "path": "ex-generic-v2/rootly",
-      "deprecated": false,
-      "categories": [],
-      "versions": [
-        {
-          "version": "1.0.0",
-          "description": "",
-          "stable": false,
-          "components": [
-            "ex-generic-v2"
-          ],
-          "path": "v0"
-        }
-      ]
-    },
-    {
-      "id": "calendarific",
-      "name": "Calendarific",
-      "description": "This is a data source returning dates of holidays in 4 countries (GB,US,CA,CZ) in the selected year.",
-      "requirements":
-        {
-          "backends": ["snowflake","bigquery"],
-          "components": ["ex-generic-v2"]
-        },
-      "path": "ex-generic-v2/calendarific",
-      "deprecated": false,
-      "categories": [],
-      "versions": [
-        {
-          "version": "1.0.0",
-          "description": "",
-          "stable": false,
-          "components": [
-            "ex-generic-v2"
-          ],
-          "path": "v0"
-        }
-      ]
-    },
-    {
-      "id": "google-ads-ads",
-      "name": "Google Ads - Ads",
-      "description": "This data source is getting data about Google Ads at the level of ads.",
-      "requirements":
-        {
-          "backends": ["snowflake","bigquery"],
-          "components": ["keboola.ex-google-ads"]
-        },
-      "path": "keboola.ex-google-ads/google-ads-ads",
-      "deprecated": false,
+      "id": "google-ads-adgroups",
+      "name": "Google Ads - AdGroups",
+      "description": "This data source is getting data about Google Ads ad-groups.",
+      "requirements": {
+        "backends": [
+          "snowflake",
+          "bigquery"
+        ],
+        "components": [
+          "keboola.ex-google-ads"
+        ],
+        "features": null
+      },
       "categories": [
         "Marketing"
       ],
+      "path": "keboola.ex-google-ads/google-ads-adgroups",
       "versions": [
         {
           "version": "1.0.0",
@@ -506,19 +213,23 @@
       ]
     },
     {
-      "id": "google-ads-adgroups",
-      "name": "Google Ads - AdGroups",
-      "description": "This data source is getting data about Google Ads ad-groups.",
-      "requirements":
-        {
-          "backends": ["snowflake","bigquery"],
-          "components": ["keboola.ex-google-ads"]
-        },
-      "path": "keboola.ex-google-ads/google-ads-adgroups",
-      "deprecated": false,
+      "id": "google-ads-ads",
+      "name": "Google Ads - Ads",
+      "description": "This data source is getting data about Google Ads at the level of ads.",
+      "requirements": {
+        "backends": [
+          "snowflake",
+          "bigquery"
+        ],
+        "components": [
+          "keboola.ex-google-ads"
+        ],
+        "features": null
+      },
       "categories": [
         "Marketing"
       ],
+      "path": "keboola.ex-google-ads/google-ads-ads",
       "versions": [
         {
           "version": "1.0.0",
@@ -535,16 +246,20 @@
       "id": "google-ads-campaigns",
       "name": "Google Ads - Campaigns",
       "description": "This data source is getting data about Google Ads campaigns.",
-      "requirements":
-        {
-          "backends": ["snowflake","bigquery"],
-          "components": ["keboola.ex-google-ads"]
-        },
-      "path": "keboola.ex-google-ads/google-ads-campaigns",
-      "deprecated": false,
+      "requirements": {
+        "backends": [
+          "snowflake",
+          "bigquery"
+        ],
+        "components": [
+          "keboola.ex-google-ads"
+        ],
+        "features": null
+      },
       "categories": [
         "Marketing"
       ],
+      "path": "keboola.ex-google-ads/google-ads-campaigns",
       "versions": [
         {
           "version": "1.0.0",
@@ -552,6 +267,60 @@
           "stable": false,
           "components": [
             "keboola.ex-google-ads"
+          ],
+          "path": "v0"
+        }
+      ]
+    },
+    {
+      "id": "google-analytics-events",
+      "name": "Google Analytics - Events Engagement",
+      "description": "An extractor that pulls Google Analytics event engagement data for user interaction insights.",
+      "requirements": {
+        "backends": [
+          "snowflake",
+          "bigquery"
+        ],
+        "components": [
+          "keboola.ex-google-analytics-v4"
+        ],
+        "features": null
+      },
+      "path": "keboola.ex-google-analytics-v4/google-analytics-events",
+      "versions": [
+        {
+          "version": "0.0.1",
+          "description": "",
+          "stable": false,
+          "components": [
+            "keboola.ex-google-analytics-v4"
+          ],
+          "path": "v0"
+        }
+      ]
+    },
+    {
+      "id": "google-analytics-landing-page",
+      "name": "Google Analytics - Landing Page Insights",
+      "description": "An extractor that retrieves Google Analytics landing page engagement data for performance insights.",
+      "requirements": {
+        "backends": [
+          "snowflake",
+          "bigquery"
+        ],
+        "components": [
+          "keboola.ex-google-analytics-v4"
+        ],
+        "features": null
+      },
+      "path": "keboola.ex-google-analytics-v4/google-analytics-landing-page",
+      "versions": [
+        {
+          "version": "0.0.1",
+          "description": "",
+          "stable": false,
+          "components": [
+            "keboola.ex-google-analytics-v4"
           ],
           "path": "v0"
         }
@@ -612,54 +381,396 @@
       ]
     },
     {
-      "id": "google-analytics-events",
-      "name": "Google Analytics - Events Engagement",
-      "description": "An extractor that pulls Google Analytics event engagement data for user interaction insights.",
+      "id": "hello-world",
+      "name": "Hello World",
+      "description": "Experience a Streamlit web app with interactive widgets and optimized performance, showcasing caching for fast data loading and a user-friendly interface.",
       "requirements": {
         "backends": [
           "snowflake",
           "bigquery"
         ],
         "components": [
-          "keboola.ex-google-analytics-v4"
+          "keboola.data-apps"
         ],
-        "features": null
+        "features": [
+          "sandboxes-data-apps"
+        ]
       },
-      "path": "keboola.ex-google-analytics-v4/google-analytics-events",
+      "categories": [
+        "Data Apps",
+        "Tutorials"
+      ],
+      "path": "keboola.data-apps/hello-world",
       "versions": [
         {
           "version": "0.0.1",
           "description": "",
           "stable": false,
           "components": [
-            "keboola.ex-google-analytics-v4"
+            "keboola.data-apps"
           ],
           "path": "v0"
         }
       ]
     },
     {
-      "id": "google-analytics-landing-page",
-      "name": "Google Analytics - Landing Page Insights",
-      "description": "An extractor that retrieves Google Analytics landing page engagement data for performance insights.",
+      "id": "kai-promptlab",
+      "name": "Kai PromptLab",
+      "description": "Streamline your AI prompting process! Use this Streamlit app to refine, test, and compare multiple prompts, ensuring optimal results. Dive into AI with enhanced efficiency!",
       "requirements": {
         "backends": [
           "snowflake",
           "bigquery"
         ],
         "components": [
-          "keboola.ex-google-analytics-v4"
+          "keboola.data-apps"
         ],
+        "features": [
+          "sandboxes-data-apps"
+        ]
+      },
+      "categories": [
+        "Data Apps",
+        "Artificial Intelligence"
+      ],
+      "path": "keboola.data-apps/kai-promptlab",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "description": "",
+          "stable": false,
+          "components": [
+            "keboola.data-apps"
+          ],
+          "path": "v0"
+        }
+      ]
+    },
+    {
+      "id": "kai-sql-bot",
+      "name": "Kai SQL bot",
+      "description": "Chat with our AI-driven SQL Bot to effortlessly query your Snowflake database. Seamless and powerful!",
+      "requirements": {
+        "backends": [
+          "snowflake",
+          "bigquery"
+        ],
+        "components": [
+          "keboola.data-apps"
+        ],
+        "features": [
+          "sandboxes-data-apps"
+        ]
+      },
+      "categories": [
+        "Data Apps",
+        "Artificial Intelligence"
+      ],
+      "path": "keboola.data-apps/kai-sql-bot",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "description": "",
+          "stable": false,
+          "components": [
+            "keboola.data-apps"
+          ],
+          "path": "v0"
+        }
+      ]
+    },
+    {
+      "id": "keboola-bq-timepartioned-table",
+      "name": "Create BQ Time Partitioned Table",
+      "description": "Create a BQ table with time partitioning. Table must only contain PK column and the colmnn that will be used for time partitioning.",
+      "requirements": {
+        "backends": ["bigquery"],
+        "components": null,
         "features": null
       },
-      "path": "keboola.ex-google-analytics-v4/google-analytics-landing-page",
+      "path": "keboola-bq-timepartioned-table",
       "versions": [
         {
           "version": "0.0.1",
           "description": "",
           "stable": false,
           "components": [
-            "keboola.ex-google-analytics-v4"
+            "kds-team.app-custom-python"
+          ],
+          "path": "v0"
+        }
+      ]
+    },
+    {
+      "id": "keboola-configuration-events",
+      "name": "Keboola - Configuration Events",
+      "description": "This is the data source that returns the event data of a specific configuration in Keboola.",
+      "requirements": {
+        "backends": [
+          "snowflake",
+          "bigquery"
+        ],
+        "components": [
+          "ex-generic-v2"
+        ],
+        "features": null
+      },
+      "path": "ex-generic-v2/keboola-configuration-events",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "description": "",
+          "stable": false,
+          "components": [
+            "ex-generic-v2"
+          ],
+          "path": "v0"
+        }
+      ]
+    },
+    {
+      "id": "keboola-data-editor",
+      "name": "Keboola Data Editor",
+      "description": "Simplify your data editing and management within your company using this demo data app that showcases the interaction between Streamlit and Keboola Storage.",
+      "requirements": {
+        "backends": [
+          "snowflake",
+          "bigquery"
+        ],
+        "components": [
+          "keboola.data-apps"
+        ],
+        "features": [
+          "sandboxes-data-apps"
+        ]
+      },
+      "categories": [
+        "Data Apps"
+      ],
+      "path": "keboola.data-apps/keboola-data-editor",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "description": "",
+          "stable": false,
+          "components": [
+            "keboola.data-apps"
+          ],
+          "path": "v0"
+        }
+      ]
+    },
+    {
+      "id": "keboola-deleted-tables",
+      "name": "Keboola - Deleted Tables",
+      "description": "This is the data source that returns data about deleted tables in Keboola.",
+      "requirements": {
+        "backends": [
+          "snowflake",
+          "bigquery"
+        ],
+        "components": [
+          "ex-generic-v2"
+        ],
+        "features": null
+      },
+      "path": "ex-generic-v2/keboola-deleted-tables",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "description": "",
+          "stable": false,
+          "components": [
+            "ex-generic-v2"
+          ],
+          "path": "v0"
+        }
+      ]
+    },
+    {
+      "id": "keboola-project-tables-with-metadata",
+      "name": "Keboola - Project Tables with Metadata",
+      "description": "This data source returns metadata about all tables and buckets in the selected Keboola project.",
+      "requirements": {
+        "backends": [
+          "snowflake",
+          "bigquery"
+        ],
+        "components": [
+          "ex-generic-v2"
+        ],
+        "features": null
+      },
+      "path": "ex-generic-v2/keboola-project-tables-with-metadata",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "description": "",
+          "stable": false,
+          "components": [
+            "ex-generic-v2"
+          ],
+          "path": "v0"
+        }
+      ]
+    },
+    {
+      "id": "keboola-queue-jobs",
+      "name": "Keboola - Queue Jobs",
+      "description": "This data source returns data about jobs in the selected Keboola project.",
+      "requirements": {
+        "backends": [
+          "snowflake",
+          "bigquery"
+        ],
+        "components": [
+          "ex-generic-v2"
+        ],
+        "features": null
+      },
+      "path": "ex-generic-v2/keboola-queue-jobs",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "description": "",
+          "stable": false,
+          "components": [
+            "ex-generic-v2"
+          ],
+          "path": "v0"
+        }
+      ]
+    },
+    {
+      "id": "keboola-sandboxes",
+      "name": "Keboola - Sandboxes",
+      "description": "This data source returns data about sandboxes in the selected Keboola project.",
+      "requirements": {
+        "backends": [
+          "snowflake",
+          "bigquery"
+        ],
+        "components": [
+          "ex-generic-v2"
+        ],
+        "features": null
+      },
+      "path": "ex-generic-v2/keboola-sandboxes",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "description": "",
+          "stable": false,
+          "components": [
+            "ex-generic-v2"
+          ],
+          "path": "v0"
+        }
+      ]
+    },
+    {
+      "id": "keboola-storage-size",
+      "name": "Keboola - Storage Size",
+      "description": "This data source returns metadata about the tables including their storage size in the selected Keboola project.",
+      "requirements": {
+        "backends": [
+          "snowflake",
+          "bigquery"
+        ],
+        "components": [
+          "ex-generic-v2"
+        ],
+        "features": null
+      },
+      "path": "ex-generic-v2/keboola-storage-size",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "description": "",
+          "stable": false,
+          "components": [
+            "ex-generic-v2"
+          ],
+          "path": "v0"
+        }
+      ]
+    },
+    {
+      "id": "opsgenie",
+      "name": "Opsgenie",
+      "description": "The data source retrieves data about teams, users, alerts, and schedules from your Opsgenie.",
+      "requirements": {
+        "backends": [
+          "snowflake",
+          "bigquery"
+        ],
+        "components": [
+          "ex-generic-v2"
+        ],
+        "features": null
+      },
+      "path": "ex-generic-v2/opsgenie",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "description": "",
+          "stable": false,
+          "components": [
+            "ex-generic-v2"
+          ],
+          "path": "v0"
+        }
+      ]
+    },
+    {
+      "id": "rootly",
+      "name": "Rootly",
+      "description": "This data source retrieves data about incident insights.",
+      "requirements": {
+        "backends": [
+          "snowflake",
+          "bigquery"
+        ],
+        "components": [
+          "ex-generic-v2"
+        ],
+        "features": null
+      },
+      "path": "ex-generic-v2/rootly",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "description": "",
+          "stable": false,
+          "components": [
+            "ex-generic-v2"
+          ],
+          "path": "v0"
+        }
+      ]
+    },
+    {
+      "id": "smartlook",
+      "name": "Smartlook",
+      "description": "This data source retrieves data about sessions.",
+      "requirements": {
+        "backends": [
+          "snowflake",
+          "bigquery"
+        ],
+        "components": [
+          "ex-generic-v2"
+        ],
+        "features": null
+      },
+      "path": "ex-generic-v2/smartlook",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "description": "",
+          "stable": false,
+          "components": [
+            "ex-generic-v2"
           ],
           "path": "v0"
         }
